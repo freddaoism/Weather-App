@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class WeatherService {
-    @Value("${api_key")
+    @Value("${api_key}")
     private String apiKey;
 
     public Response getForecast(String zipCode){
